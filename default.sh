@@ -15,38 +15,33 @@ PIP_PACKAGES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-    "https://civitai.com/api/download/models/87131?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+  "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+  "https://civitai.com/api/download/models/87131?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
-UNET_MODELS=(
-)
+UNET_MODELS=()
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/196174?type=Model&format=SafeTensor",
-    "https://civitai.com/api/download/models/196183?type=Model&format=SafeTensor",
-    "https://civitai.com/api/download/models/196191?type=Model&format=SafeTensor",
-    "https://civitai.com/api/download/models/196195?type=Model&format=SafeTensor",
-    "https://civitai.com/api/download/models/196186?type=Model&format=SafeTensor",
-    "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/196174?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/196183?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/196191?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/196195?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/196186?type=Model&format=SafeTensor"
+  "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
-    "https://civitai.com/api/download/models/290640?type=VAE&format=SafeTensor"
+  "https://civitai.com/api/download/models/290640?type=VAE&format=SafeTensor"
 )
 
-ESRGAN_MODELS=(
-)
-
-CONTROLNET_MODELS=(
-)
+ESRGAN_MODELS=()
+CONTROLNET_MODELS=()
 
 EMBEDDINGS=(
-    "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16",
-    "https://civitai.com/api/download/models/20170?type=Model&format=PickleTensor&size=full&fp=fp16",
-    "https://civitai.com/api/download/models/5139?type=Model&format=PickleTensor&size=full&fp=fp16",
-    "https://civitai.com/api/download/models/86553?type=Negative&format=Other"
-    
+  "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
+  "https://civitai.com/api/download/models/20170?type=Model&format=PickleTensor&size=full&fp=fp16"
+  "https://civitai.com/api/download/models/5139?type=Model&format=PickleTensor&size=full&fp=fp16"
+  "https://civitai.com/api/download/models/86553?type=Negative&format=Other"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
